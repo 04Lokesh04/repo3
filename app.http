@@ -1,0 +1,14 @@
+GET http://localhost:3000/players
+
+GET http://localhost:3000/players/:playerId/
+
+POST http://localhost:3000/players/:playerId/
+Content-Type:application/json
+
+{
+  "playerName": "csx",
+  "jerseyNumber": 1231,
+  "role": "Bowler"
+}
+
+DELETE  http://localhost:3000/players/:playerId/
